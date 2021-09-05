@@ -1,0 +1,20 @@
+{
+  "name": "spark-template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "gen": "node internal/tools/generate.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.2",
+    "vite-plugin-node": "^0.0.14"
+  },
+  "dependencies": {
+    "@trpc/server": "^9.1.0",
+    "zod": "^3.8.2"
+  }
+}
