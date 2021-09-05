@@ -35,8 +35,4 @@ const httpHandler = (req: IncomingMessage, res: ServerResponse) => {
   handler(req, res);
 };
 
-if (process.env.NODE_ENV === "production") {
-  http.createServer(httpHandler).listen(3000);
-}
-
 export const viteNodeApp = httpHandler;

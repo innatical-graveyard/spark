@@ -2,9 +2,7 @@
   "name": "spark-template",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview",
+    "serve": "vite",
     "gen": "node internal/tools/generate.js"
   },
   "devDependencies": {
