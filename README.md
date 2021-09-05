@@ -5,7 +5,7 @@ A typesafe backend framework
 ## Installation
 
 ```sh
-npx degit innatical/spark
+npx degit innatical/spark [project name]
 ```
 
 ## Usage
