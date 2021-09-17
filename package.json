@@ -6,13 +6,13 @@
     "gen": "node internal/tools/generate.js"
   },
   "devDependencies": {
-    "@types/node": "^16.7.10",
-    "typescript": "^4.3.2",
-    "vite": "^2.5.2",
+    "@types/node": "^16.9.2",
+    "typescript": "^4.4.3",
+    "vite": "^2.5.8",
     "vite-plugin-node": "^0.0.14"
   },
   "dependencies": {
-    "@trpc/server": "^9.1.0",
+    "@trpc/server": "^9.6.1",
     "zod": "^3.8.2"
   }
 }
