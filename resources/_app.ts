@@ -1,4 +1,4 @@
-import * as trpc from "@trpc/server";
+import { createHTTPHandler } from "@trpc/server/adapters/standalone";
 import routes from "./_routes";
 
 export type Context = {};
@@ -6,7 +6,7 @@ export type Context = {};
 export const app = routes;
 export type App = typeof app;
 
-export const handler = trpc.createHttpHandler({
+export const handler = createHTTPHandler({
   router: app,
   createContext() {
     return {};
